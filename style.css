@@ -79,3 +79,51 @@ body::before {
     transform: rotateY(0deg);
   }
 }
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 1.5em;
+    padding: 0 10px;
+  }
+
+  #countdown {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .tempo {
+    min-width: 70px;
+    padding: 15px;
+  }
+
+  .tempo span {
+    font-size: 2em;
+  }
+
+  .tempo p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 1.2em;
+  }
+
+  .tempo {
+    min-width: 60px;
+    padding: 12px;
+  }
+
+  .tempo span {
+    font-size: 1.6em;
+  }
+
+  .tempo p {
+    font-size: 0.8em;
+  }
+
+  #countdown {
+    gap: 10px;
+  }
+}
